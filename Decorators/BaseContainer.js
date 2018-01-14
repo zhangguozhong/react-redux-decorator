@@ -23,7 +23,6 @@ export default ()=>(Comp)=> class extends Component{
     }
 
     render(){
-        console.log(this.props.message);
         return(
             <View style={styles.container}>
                 <Text style={styles.textView}>{this.props.message}</Text>
